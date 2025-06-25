@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snapex"
+version = "1.0.0"
+description = "The Ultimate HTTP Client for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "vd437",
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "brotli>=1.0.9",
+    "certifi>=2022.12.7",
+    "urllib3>=1.26.12",
+]
+
+[project.optional-dependencies]
+http2 = ["h2>=4.1.0"]
+http3 = ["aioquic>=0.9.20"]
+websocket = ["websockets>=11.0.2"]
+full = ["h2>=4.1.0", "aioquic>=0.9.20", "websockets>=11.0.2"]
+dev = [
+    "pytest>=7.2.0",
+    "pytest-asyncio>=0.20.3",
+    "pytest-vcr>=1.0.2",
+    "requests>=2.28.1",
+    "Sphinx>=5.3.0",
+    "sphinx-rtd-theme>=1.1.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/vd437/snapex"
+Bug Tracker = "https://github.com/vd437/snapex/issues"
