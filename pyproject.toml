@@ -47,4 +47,4 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/vd437/snapex"
-Bug Tracker = "https://github.com/vd437/snapex/issues"
+"Bug Tracker" = "https://github.com/vd437/snapex/issues"
