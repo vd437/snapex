@@ -1,8 +1,8 @@
 # Snapex - The Ultimate HTTP Client for Python
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Tests](https://github.com/yourusername/snapex/actions/workflows/tests.yml/badge.svg)
+![License](https://github.com/vd437/snapex/blob/main/LICENSE)
+![Tests](https://github.com/vd437/snapex)
 
 Snapex is a high-performance, full-featured HTTP client for Python with support for:
 
